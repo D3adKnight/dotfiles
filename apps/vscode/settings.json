@@ -1,0 +1,85 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Material Theme Darker",
+
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "boundary",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.suggestSelection": "first",
+
+  "files.trimTrailingWhitespace": true,
+
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+
+  "breadcrumbs.enabled": true,
+
+  "npm.exclude": "**/node_modules.nosync/**",
+  "typescript.tsc.autoDetect": "off",
+
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "material-icon-theme.folders.associations": {
+    "store": "Redux-store",
+    "redux": "Redux-store",
+    "actions": "Redux-actions",
+    "reducers": "Redux-reducer"
+  },
+
+  "material-icon-theme.files.associations": {
+    "store": "Redux-store",
+    "reducer": "Redux-reducer",
+    "actions": "Redux-action"
+  },
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#80CBC4",
+    "list.activeSelectionForeground": "#80CBC4",
+    "list.inactiveSelectionForeground": "#80CBC4",
+    "list.highlightForeground": "#80CBC4",
+    "scrollbarSlider.activeBackground": "#80CBC450",
+    "editorSuggestWidget.highlightForeground": "#80CBC4",
+    "textLink.foreground": "#80CBC4",
+    "progressBar.background": "#80CBC4",
+    "pickerGroup.foreground": "#80CBC4",
+    "tab.activeBorder": "#80CBC4",
+    "notificationLink.foreground": "#80CBC4",
+    "editorWidget.resizeBorder": "#80CBC4",
+    "editorWidget.border": "#80CBC4",
+    "settings.modifiedItemIndicator": "#80CBC4",
+    "settings.headerForeground": "#80CBC4",
+    "panelTitle.activeBorder": "#80CBC4",
+    "breadcrumb.activeSelectionForeground": "#80CBC4",
+    "menu.selectionForeground": "#80CBC4",
+    "menubar.selectionForeground": "#80CBC4",
+    "editor.findMatchBorder": "#80CBC4",
+    "selection.background": "#80CBC440"
+  },
+  "materialTheme.accent": "Teal",
+  "git.confirmSync": false,
+  "git.suggestSmartCommit": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[reason]": {
+    "editor.defaultFormatter": "jaredly.reason-vscode",
+  },
+  "reason_language_server.per_value_codelens": true,
+  "reason_language_server.opens_codelens": true,
+  "files.exclude": {
+    "**/node_modules": true
+  },
+}
