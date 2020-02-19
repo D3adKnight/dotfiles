@@ -35,7 +35,7 @@ alias fpid80='lsof -i:8080'
 alias kll='kill -9'
 
 # refresh
-alias refresh='source ~/dotfiles/.zshrc'
+alias refresh='source ~/.zshrc'
 
 # ====================
 # Git Aliases
