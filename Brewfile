@@ -1,6 +1,6 @@
 # Taps
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
 
 # Install ZSH and plugins/themes
 brew 'zsh'
