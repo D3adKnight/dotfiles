@@ -12,7 +12,7 @@ brew tap homebrew/bundle
 brew bundle
 
 # node
-npm i -g create-react-app apollo bs-platform serve
+npm i -g create-react-app apollo bs-platform serve firebase-tools
 
 # Install oh-my-zsh to $HOME directory
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
