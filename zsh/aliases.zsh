@@ -7,12 +7,11 @@ alias md='mkdir'
 
 # cd
 alias b='cd ..'                             # Go back
-alias ..='cd ../'
-alias ...='cd ../../'                       # Go back 2 directory levels
-alias .3='cd ../../../'                     # Go back 3 directory levels
-alias .4='cd ../../../../'                  # Go back 4 directory levels
-alias .5='cd ../../../../../'               # Go back 5 directory levels
-alias .6='cd ../../../../../../'            # Go back 6 directory levels
+alias bb='cd ../../'                        # Go back 2 directory levels
+alias bbb='cd ../../../'                    # Go back 3 directory levels
+alias b4='cd ../../../../'                  # Go back 4 directory levels
+alias b5='cd ../../../../../'               # Go back 5 directory levels
+alias b6='cd ../../../../../../'            # Go back 6 directory levels
 
 alias Desk='cd ~/Desktop'
 alias Dev='cd ~/dev'
