@@ -1,5 +1,16 @@
 {
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "material-icon-theme",
+
+  "debug.toolBarLocation": "floating",
+  "editor.autoIndent": "full",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "line",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+  "editor.letterSpacing": 0.5,
+  "editor.lineHeight": 25,
+  "search.showLineNumbers": true,
+  "zenMode.centerLayout": false,
 
   "editor.fontSize": 16,
   "editor.fontFamily": "Fira Code",
@@ -43,5 +54,10 @@
   "files.exclude": {
     "**/node_modules": true
   },
-  "workbench.colorTheme": "Winter is Coming (Dark Black)",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.colorCustomizations": {},
+  "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+  "diffEditor.ignoreTrimWhitespace": false,
 }

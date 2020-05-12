@@ -7,7 +7,6 @@ brew 'zsh'
 
 # Install dev tools
 brew 'git'
-brew 'node'
 brew 'vim'
 brew 'tmux'
 

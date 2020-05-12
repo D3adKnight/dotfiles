@@ -12,6 +12,8 @@ brew tap homebrew/bundle
 brew bundle
 
 # node
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+nvm install --lts
 npm i -g create-react-app apollo bs-platform serve firebase-tools
 
 # Install oh-my-zsh to $HOME directory
