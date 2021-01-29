@@ -67,5 +67,7 @@ let g:fzf_action = {
   \ 'ctrl-v': 'vsplit'
   \}
 
+let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+
 " enable rainbow parens for everything
 let g:rainbow_active = 1
