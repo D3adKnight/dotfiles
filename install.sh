@@ -29,6 +29,10 @@ git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugi
 git clone https://github.com/zsh-users/zsh-history-substring-search ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
+# Install packer for neovim
+git clone --depth 1 https://github.com/wbthomason/packer.nvim \
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+
 # Create dev directories
 mkdir $HOME/dev
 

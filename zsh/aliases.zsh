@@ -5,6 +5,9 @@ alias ll='ls -la'
 # mkdir
 alias md='mkdir'
 
+# vim
+alias vim='nvim'
+
 # cd
 alias b='cd ..'                             # Go back
 alias bb='cd ../../'                        # Go back 2 directory levels
